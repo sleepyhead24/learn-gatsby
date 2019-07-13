@@ -1,14 +1,13 @@
 import React from 'react';
 import {Layout} from '../components/layout';
 
-const HomePage = () => {
+const AboutMe = () => {
     return(
         <Layout>
-            <h1>Hello World</h1>
+            <h1>About Me</h1>
             <p>Kenny Kang.</p>
         </Layout>
     );
 };
 
-export default HomePage;
-
+export default AboutMe;
